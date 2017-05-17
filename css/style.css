@@ -436,18 +436,18 @@ label{
 .callbacks_tabs a{
  visibility: hidden;
 }
-.callbacks_tabs a:after {
-    content: "\f111";
-    font-size: 0;
-    font-family: FontAwesome;
-    visibility: visible;
-    display: block;
-    height:6px;
-    width:44px;
-    display: inline-block;
-    background:#fff;
-    border:none;
-}
+/*.callbacks_tabs a:after {*/
+    /*content: "\f111";*/
+    /*font-size: 0;*/
+    /*font-family: FontAwesome;*/
+    /*visibility: visible;*/
+    /*display: block;*/
+    /*height:6px;*/
+    /*width:44px;*/
+    /*display: inline-block;*/
+    /*background:#fff;*/
+    /*border:none;*/
+/*}*/
 .callbacks_here a:after{
 	background:#F8DA56;
 }
