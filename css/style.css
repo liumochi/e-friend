@@ -127,11 +127,11 @@ label{
 	}
 	.navbar-brand:before{
 		position:absolute;
-		top:8%;
+		top:10%;
 		left:0%;
-		width:50px;
-		height:50px;
-		/*background:url(../images/1.png) no-repeat 0px 0px;*/
+		width:100px;
+		height:100px;
+		background:url(../images/1.png) no-repeat 0px 0px;
 		display:block;
 		content:'';
 	}
@@ -1790,9 +1790,6 @@ h3.title,.contact h3{
 	line-height:1.8em;
 }
 /*--Responsive--*/
-@media (max-width:1440px){
-
-}
 @media (max-width:1366px){
 	.banner {
 		background: url(../images/banner.jpg)no-repeat 0px 0px;
