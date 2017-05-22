@@ -129,15 +129,6 @@ position: absolute;
 .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
     background: #fff;
 }
-@media(max-width:1440px){
-
-}
-@media(max-width:1366px){
-
-}
-@media(max-width:1280px){
-
-}
 @media(max-width:1024px){
 	.owl-theme .owl-buttons {
 		position: absolute;
