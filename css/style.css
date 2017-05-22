@@ -148,7 +148,7 @@ label{
 		padding-bottom: 15px;
 	}
 	.navbar-nav>li{
-		margin-left:30px;
+		margin-left:19.5px;
 	}
 	.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a.active {
 	   color:#2479A9;
@@ -1485,13 +1485,13 @@ ul.td-pb-padding-side li a:hover{
 }
 /*--copyright--*/
 .banner1 {
-    background: url(../images/banner.jpg)no-repeat 0px 0px;
+    background: url(../images/about_us_banner.png)no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
     -ms-background-size: cover;
-    min-height: 230px;
+    min-height: 330px;
 }
 h2.inner-tittle {
     text-align: center;
