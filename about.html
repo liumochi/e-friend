@@ -9,22 +9,11 @@
 <!-- Custom Theme files -->
 <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel='stylesheet' type='text/css' />
-	<link rel="stylesheet" href="css/about.css"/>
-<script src="js/jquery.min.js"> </script>
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
+<link rel="stylesheet" href="css/about.css"/>
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-<!--/script-->
 <link href='https://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700' rel='stylesheet' type='text/css'>
-<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
-				});
-			});
-</script>
+
 </head>
 <body>
 <div class="header" id="home">
@@ -83,51 +72,58 @@
 			<h3>关于我们
 			<span>ABOUT US</span>
 			</h3>
-			<ul class="nav_bar">
+			<ul id="nav_bar">
 				<li class="active">简介</li>
 				<li>功能</li>
 				<li>活动</li>
 			</ul>
-			<div class="aa">111</div>
-			<div class="bb">222</div>
-			<div class="cc">333</div>
-			<!--<div class="col-md-4 contact-left">-->
-			<!--</div>-->
-			<!--<div class="col-md-8 contact-left">-->
+			<div id="content">
+				<div class="active">校园交友平台</div>
+				<div>该平台是一个通过各种兴趣模块（书法，绘画，古典音乐，文学交流，数字建模，计算机语言，围棋，……）提供的功能来实现将兴趣相同的学生组织在一起，进行线上和线下的交流和学习活动，除此之外，该平台还提供学生与老师间的学术交流和本平台使用是以学校和兴趣为主线，注册时需要选择用户所属的学校名称作为依据，根据自己的兴趣爱好寻找志同道合之人，用户群体学习和生活环境比较集中，便于用户之间的认证与识别</div>
+				<div>。。。。。。。。。。。</div>
+			</div>
 
-			<!--</div>-->
-			<!--<div class="clearfix"> </div>-->
+
 		</div>
 	</div>
-	<!-- //contact -->
-			<!--/start-copyright-section-->
+
 				<div class="copyright">
 						  <p>Copyright &copy;</p>
 					</div>
 
 
-				<!--start-smoth-scrolling-->
-						<script type="te xt/javascript">
-									$(document).ready(function() {
-										/*
-										var defaults = {
-								  			containerID: 'toTop', // fading element id
-											containerHoverID: 'toTopHover', // fading element hover id
-											scrollSpeed: 1200,
-											easingType: 'linear' 
-								 		};
-										*/
-										
-										$().UItoTop({ easingType: 'easeOutQuart' });
-										
-									});
-								</script>
 		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 
-
 <!--JS-->
+<script src="js/jquery.min.js"> </script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+		});
+	});
+</script>
   <script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
-
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script>
+	var navBar = document.getElementById('nav_bar');
+	var aLi = navBar.getElementsByTagName('li');
+	var oContent = document.getElementById('content');
+	var aDiv = oContent.getElementsByTagName('div');
+	for(var i=0;i<aLi.length;i++){
+		aLi[i].index = i;
+		aLi[i].onclick = function(){
+			for(var i=0;i<aLi.length;i++){
+				aLi[i].className='';
+				aDiv[i].className='';
+			}
+			this.className = 'active';
+			aDiv[this.index].className = 'active';
+		}
+	}
+</script>
 <!--//JS-->
 
 </body>

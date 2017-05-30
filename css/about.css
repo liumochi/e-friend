@@ -30,17 +30,17 @@ ul,ol{
     z-index: 10;
     background-color: #fff;
 }
-.container .nav_bar{
+.container #nav_bar{
     width: 460px;
     overflow: hidden;
     margin: 60px auto 74px;
     text-align: center;
 }
-.container .nav_bar .active{
+.container #nav_bar .active{
     background-color: #31C37C;
     color: #fff;
 }
-.container .nav_bar li{
+.container #nav_bar li{
     float: left;
     width: 140px;
     height: 34px;
@@ -51,6 +51,9 @@ ul,ol{
     margin-right: 10px;
     cursor: pointer;
 }
-.bb,.cc{
+#content div{
     display: none;
+}
+#content .active{
+    display: block;
 }
