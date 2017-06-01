@@ -1,9 +1,12 @@
 function initialize() {
-    //´´½¨µØÍ¼ÊµÀı
+    //åˆ›å»ºåœ°å›¾å®ä¾‹
     var map = new BMap.Map('map');
-    //´´½¨Ò»¸ö×ø±ê
+
+    //åˆ›å»ºä¸€ä¸ªåæ ‡
     var point =new BMap.Point(113.264641,23.154905);
-    //µØÍ¼³õÊ¼»¯£¬ÉèÖÃÖĞĞÄµã×ø±êºÍµØÍ¼¼¶±ğ
+    var infoWindow = new BMap.InfoWindow("æˆ‘åœ¨è¿™é‡Œ");    // åˆ›å»ºä¿¡æ¯çª—å£å¯¹è±¡
+    map.openInfoWindow(infoWindow,point);
     map.centerAndZoom(point,15);
+
 }
 window.onload = initialize;
