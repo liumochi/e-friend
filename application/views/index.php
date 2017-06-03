@@ -2,17 +2,18 @@
 <html>
 <head>
 <title>e-friend</title>
+    <base href="<?php echo site_url()?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<link href="css/bootstrap-3.1.1.min.css" rel="stylesheet" type="text/css">
+<link href="assets/css/bootstrap-3.1.1.min.css" rel="stylesheet" type="text/css">
 <!-- Custom Theme files -->
-<link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/style.css" rel='stylesheet' type='text/css' />
-<script src="js/jquery.min.js"> </script>
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<link href="assets/css/owl.carousel.css" rel="stylesheet" type="text/css" media="all" />
+<link href="assets/css/style.css" rel='stylesheet' type='text/css' />
+<script src="assets/js/jquery.min.js"> </script>
+<script type="text/javascript" src="assets/js/move-top.js"></script>
+<script type="text/javascript" src="assets/js/easing.js"></script>
+<link rel="stylesheet" href="assets/css/flexslider.css" type="text/css" media="screen" />
 <!--/script-->
 <link href='https://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700' rel='stylesheet' type='text/css'>
@@ -31,26 +32,26 @@
 			<nav class="navbar navbar-default" role="navigation">
 			<div class="container">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html">e-friend</a>
+				<a class="navbar-brand" href="index.php">e-friend</a>
 			</div>
 			<!--/.navbar-header-->
 		
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-						<li class="active"><a href="index.html">首页</a></li>
+						<li class="active"><a href="index.php">首页</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">俱乐部<b class="caret"></b></a>
 							<ul class="dropdown-menu multi-column columns-2">
 								<div class="row">
 									<div class="party">
 										<ul class="multi-column-dropdown">
-											<li><a href="about.html">历史</a></li>
+											<li><a href="about.php">历史</a></li>
 											<li class="divider"></li>
-											<li><a href="about.html">哲学</a></li>
+											<li><a href="about.php">哲学</a></li>
 											<li class="divider"></li>
-											<li><a href="about.html">摄影</a></li>
+											<li><a href="about.php">摄影</a></li>
 											<li class="divider"></li>
-											<li><a href="about.html">计算机</a></li>
+											<li><a href="about.php">计算机</a></li>
 											<li class="divider"></li>
 											<li><a href="typography.html">其他</a></li>
 										</ul>
@@ -58,10 +59,10 @@
 								</div>
 							</ul>
 						</li>
-						<li><a href="typography.html">表白墙</a></li>
+						<li><a href="Welcome/read">表白墙</a></li>
 						<li><a>嘚吧嘚</a></li>
-						<li><a href="about.html">关于我们</a></li>
-						<li><a href="">登陆</a></li>
+						<li><a href="Welcome/about">关于我们</a></li>
+						<li><a href="user/reg">登陆</a></li>
 				</ul>
 			</div>
 				<!--/.navbar-collapse-->
@@ -91,7 +92,7 @@
 					</ul>
 				</div>
 					<!--banner-Slider-->
-					<script src="js/responsiveslides.min.js"></script>
+					<script src="assets/js/responsiveslides.min.js"></script>
 					 <script>
 					// You can also use "$(window).load(function() {"
 					$(function () {
@@ -126,12 +127,12 @@
 						 <div class="technology">
 			              <h2 class="tittle"><i class="glyphicon glyphicon-hand-right" aria-hidden="true"></i>校内资讯</h2>
 							<div class="col-md-6 tech-img">
-					          <img src="images/IMG_9040.JPG" class="img-responsive" alt=""/>
+					          <img src="assets/images/IMG_9040.JPG" class="img-responsive" alt=""/>
 							</div>
 							 <div class="col-md-6 tech-text">
 					            <div class="editor-pics">
 										 <div class="col-md-3 item-pic">
-										   <img src="images/f1.jpg" class="img-responsive" alt=""/>
+										   <img src="assets/images/f1.jpg" class="img-responsive" alt=""/>
 
 										   </div>
 											<div class="col-md-9 item-details">
@@ -142,7 +143,7 @@
 										</div>
 										<div class="editor-pics">
 										 <div class="col-md-3 item-pic">
-										   <img src="images/f2.jpg" class="img-responsive" alt=""/>
+										   <img src="assets/images/f2.jpg" class="img-responsive" alt=""/>
 
 										   </div>
 											<div class="col-md-9 item-details">
@@ -153,7 +154,7 @@
 										</div>
 										<div class="editor-pics">
 										 <div class="col-md-3 item-pic">
-										   <img src="images/f3.jpg" class="img-responsive" alt=""/>
+										   <img src="../../assets/images/f3.jpg" class="img-responsive" alt=""/>
 
 										   </div>
 											<div class="col-md-9 item-details">
@@ -164,7 +165,7 @@
 										</div>
 										<div class="editor-pics">
 										 <div class="col-md-3 item-pic">
-										   <img src="images/f4.jpg" class="img-responsive" alt=""/>
+										   <img src="../../assets/images/f4.jpg" class="img-responsive" alt=""/>
 
 										   </div>
 											<div class="col-md-9 item-details">
@@ -185,16 +186,16 @@
 								<div class="course_demo1">
 								  <ul id="flexiselDemo1">	
 									 <li>
-										<a href="single.html"><img src="images/mg1.jpg" alt="" /></a>						
+										<a href="single.html"><img src="assets/images/mg1.jpg" alt="" /></a>
 									 </li>
 									 <li>
-										<a href="single.html"><img src="images/mg2.jpg" alt="" /></a>
+										<a href="single.html"><img src="assets/images/mg2.jpg" alt="" /></a>
 									  </li>	
 									 <li>
-										<a href="single.html"><img src="images/mg3.jpg" alt="" /></a>
+										<a href="single.html"><img src="assets/images/mg3.jpg" alt="" /></a>
 									 </li>	
 									 <li>
-										<a href="single.html"><img src="images/mg4.jpg" alt="" /></a>
+										<a href="single.html"><img src="assets/images/mg4.jpg" alt="" /></a>
 									 </li>	
 								 </ul>
 							 </div>
@@ -225,7 +226,7 @@
 								
 							 });
 							  </script>
-							 <script type="text/javascript" src="js/jquery.flexisel.js"></script>
+							 <script type="text/javascript" src="assets/js/jquery.flexisel.js"></script>
 						 </div>
 							 <a class="more" href="single.html">More  +</a>
 					</div>
@@ -247,40 +248,40 @@
 			 	        <div id="owl-demo" class="owl-carousel text-center">
 					      <div class="item">
 					
-							<img class="img-responsive lot" src="images/p1.jpg" alt=""/>
+							<img class="img-responsive lot" src="assets/images/p1.jpg" alt=""/>
 					     </div>
 						 <div class="item">
 					
-							<img class="img-responsive lot" src="images/p2.jpg" alt=""/>
+							<img class="img-responsive lot" src="assets/images/p2.jpg" alt=""/>
 					    </div>
 						<div class="item">
 					
-							<img class="img-responsive lot" src="images/p33.jpg" alt=""/>
+							<img class="img-responsive lot" src="assets/images/p33.jpg" alt=""/>
 					    </div>
 						<div class="item">
 					
-							<img class="img-responsive lot" src="images/p1.jpg" alt=""/>
+							<img class="img-responsive lot" src="assets/images/p1.jpg" alt=""/>
 					</div>
 					<div class="item">
 					
-							<img class="img-responsive lot" src="images/p1.jpg" alt=""/>
+							<img class="img-responsive lot" src="assets/images/p1.jpg" alt=""/>
 					</div>
 						<div class="item">
 					
-							<img class="img-responsive lot" src="images/p2.jpg" alt=""/>
+							<img class="img-responsive lot" src="../../assets/images/p2.jpg" alt=""/>
 					</div>
 						<div class="item">
 					
-							<img class="img-responsive lot" src="images/p33.jpg" alt=""/>
+							<img class="img-responsive lot" src="../../assets/images/p33.jpg" alt=""/>
 					</div>
 						<div class="item">
 					
-							<img class="img-responsive lot" src="images/p1.jpg" alt=""/>
+							<img class="img-responsive lot" src="../../assets/images/p1.jpg" alt=""/>
 					</div>
 				</div>
 				</div>
 				<!-- requried-jsfiles-for owl -->
-										<script src="js/owl.carousel.js"></script>
+										<script src="../../assets/js/owl.carousel.js"></script>
 										  <script>
 										  $(document).ready(function() {
 											   $("#owl-demo").owlCarousel({
@@ -313,7 +314,7 @@
 								<div class="edit-pics">
 										<div class="editor-pics">
 										 <div class="col-md-3 item-pic">
-										   <img src="images/f4.jpg" class="img-responsive" alt=""/>
+										   <img src="assets/images/f4.jpg" class="img-responsive" alt=""/>
 
 										   </div>
 											<div class="col-md-9 item-details">
@@ -324,7 +325,7 @@
 										</div>
 										<div class="editor-pics">
 										 <div class="col-md-3 item-pic">
-										   <img src="images/f3.jpg" class="img-responsive" alt=""/>
+										   <img src="assets/images/f3.jpg" class="img-responsive" alt=""/>
 
 										   </div>
 											<div class="col-md-9 item-details">
@@ -335,7 +336,7 @@
 										</div>
 										<div class="editor-pics">
 										 <div class="col-md-3 item-pic">
-										   <img src="images/f2.jpg" class="img-responsive" alt=""/>
+										   <img src="assets/images/f2.jpg" class="img-responsive" alt=""/>
 
 										   </div>
 											<div class="col-md-9 item-details">
@@ -356,7 +357,7 @@
 		             <div class="grid">
 						  <div class="col-md-4 m-b">
 							<a href="single.html"> <figure class="effect-layla"></a>
-								<img src="images/pic.jpg" alt="img25"/>
+								<img src="../../assets/images/pic.jpg" alt="img25"/>
 								<figcaption>
 									<h4>Annegret Krisko<span>Politician</span></h4>
 									<a href="#">View more</a>
@@ -370,7 +371,7 @@
 						  </div>
 						   <div class="col-md-4 m-b">
 							 <figure class="effect-layla">
-							<a href="single.html">	<img src="images/pic2.jpg" alt="img25"/></a>
+							<a href="single.html">	<img src="../../assets/images/pic2.jpg" alt="img25"/></a>
 								<figcaption>
 									<h4>Stephen Harper<span>Politician</span></h4>
 								</figcaption>			
@@ -383,7 +384,7 @@
 						  </div>
 						  <div class="col-md-4 m-b">
 							 <figure class="effect-layla">
-								<a href="single.html"><img src="images/pic1.jpg" alt="img25"/></a>
+								<a href="single.html"><img src="../../assets/images/pic1.jpg" alt="img25"/></a>
 								<figcaption>
 									<h4>Shane Robinson<span>Politician</span></h4>
 								</figcaption>			
@@ -428,7 +429,7 @@
 
 
 <!--JS-->
-  <script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap-3.1.1.min.js"></script>
 
 <!--//JS-->
 
