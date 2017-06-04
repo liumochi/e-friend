@@ -6,12 +6,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<link href="../../assets/css/bootstrap-3.1.1.min.css" rel="stylesheet" type="text/css">
-<!-- Custom Theme files -->
-<link href="../../assets/css/owl.carousel.css" rel="stylesheet" type="text/css" media="all" />
-<link href="../../assets/css/style.css" rel='stylesheet' type='text/css' />
-<link rel="stylesheet" href="../../assets/css/about.css"/>
-<link rel="stylesheet" href="../../assets/css/flexslider.css" type="text/css" media="screen" />
+<link href="assets/css/bootstrap-3.1.1.min.css" rel="stylesheet" type="text/css">
+<link href="assets/css/owl.carousel.css" rel="stylesheet" type="text/css" media="all" />
+<link href="assets/css/style.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="assets/css/about.css"/>
+<link rel="stylesheet" href="assets/css/flexslider.css" type="text/css" media="screen" />
 <link href='https://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700' rel='stylesheet' type='text/css'>
 	<style>
@@ -107,7 +106,7 @@
 		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 
 <!--JS-->
-<script src="../../assets/js/jquery.min.js"> </script>
+<script src="assets/js/jquery.min.js"> </script>
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
 		$(".scroll").click(function(event){
@@ -116,11 +115,11 @@
 		});
 	});
 </script>
-  <script type="text/javascript" src="../../assets/js/bootstrap-3.1.1.min.js"></script>
-<script type="text/javascript" src="../../assets/js/move-top.js"></script>
-<script type="text/javascript" src="../../assets/js/easing.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap-3.1.1.min.js"></script>
+<script type="text/javascript" src="assets/js/move-top.js"></script>
+<script type="text/javascript" src="assets/js/easing.js"></script>
 <script src="http://api.map.baidu.com/api?v=2.0&ak=您的密钥" type="text/javascript"></script>
-<script src="../../assets/js/map.js"></script>
+<script src="assets/js/map.js"></script>
 <script>
 	var navBar = document.getElementById('nav_bar');
 	var aLi = navBar.getElementsByTagName('li');

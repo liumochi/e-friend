@@ -8,11 +8,13 @@
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href="assets/css/bootstrap-3.1.1.min.css" rel="stylesheet" type="text/css">
 <!-- Custom Theme files -->
-<link href="assets/css/owl.carousel.css" rel="stylesheet" type="text/css" media="all" />
-<link href="assets/css/style.css" rel='stylesheet' type='text/css' />
+<link href="assets/css/owl.carousel.css" rel="stylesheet" media="all" />
+<link href="assets/css/style.css" rel='stylesheet'/>
+<link rel="stylesheet" href="assets/css/banner.css">
 <script src="assets/js/jquery.min.js"> </script>
 <script type="text/javascript" src="assets/js/move-top.js"></script>
 <script type="text/javascript" src="assets/js/easing.js"></script>
+<script src="assets/js/responsiveslides.min.js"></script>
 <link rel="stylesheet" href="assets/css/flexslider.css" type="text/css" media="screen" />
 <!--/script-->
 <link href='https://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
@@ -77,39 +79,28 @@
 			<div class="banner-inner">
 				<div class="callbacks_container">
 					<ul class="rslides callbacks callbacks1" id="slider4">
-						<li class="callbacks1_on" style="display: block; float: left; position: relative; opacity: 1; z-index: 2; transition: opacity 500ms ease-in-out;">
-							<div class="banner-info">
-							</div>
+						<li class="callbacks1_on">
+                                <img src="assets/images/banner.jpg" alt="">
 						</li>
-						<li class="" style="display: block; float: none; position: absolute; opacity: 0; z-index: 1; transition: opacity 500ms ease-in-out;">
-							<div class="banner-info">
-							</div>
+						<li>
+                                <img src="assets/images/1.jpg" alt="">
 						</li>
-						<li class="" style="display: block; float: none; position: absolute; opacity: 0; z-index: 1; transition: opacity 500ms ease-in-out;">
-							<div class="banner-info">
-							</div>	
+						<li>
+                                <img src="assets/images/2.jpg" alt="">
 						</li>
 					</ul>
-				</div>
+                </div>
 					<!--banner-Slider-->
-					<script src="assets/js/responsiveslides.min.js"></script>
+
 					 <script>
-					// You can also use "$(window).load(function() {"
 					$(function () {
-					  // Slideshow 4
 					  $("#slider4").responsiveSlides({
 					auto: true,
 					pager: true,
-					nav:false,
+					nav:true,
 					speed: 500,
-					namespace: "callbacks",
-					before: function () {
-					  $('.events').append("<li>before event fired.</li>");
-					},
-					after: function () {
-					  $('.events').append("<li>after event fired.</li>");
-					}
-					  });
+                    namespace: 'centered-btns',
+                      });
 
 					});
 					  </script>
@@ -154,7 +145,7 @@
 										</div>
 										<div class="editor-pics">
 										 <div class="col-md-3 item-pic">
-										   <img src="../../assets/images/f3.jpg" class="img-responsive" alt=""/>
+										   <img src="assets/images/f3.jpg" class="img-responsive" alt=""/>
 
 										   </div>
 											<div class="col-md-9 item-details">
@@ -165,7 +156,7 @@
 										</div>
 										<div class="editor-pics">
 										 <div class="col-md-3 item-pic">
-										   <img src="../../assets/images/f4.jpg" class="img-responsive" alt=""/>
+										   <img src="assets/images/f4.jpg" class="img-responsive" alt=""/>
 
 										   </div>
 											<div class="col-md-9 item-details">
@@ -268,20 +259,20 @@
 					</div>
 						<div class="item">
 					
-							<img class="img-responsive lot" src="../../assets/images/p2.jpg" alt=""/>
+							<img class="img-responsive lot" src="assets/images/p2.jpg" alt=""/>
 					</div>
 						<div class="item">
 					
-							<img class="img-responsive lot" src="../../assets/images/p33.jpg" alt=""/>
+							<img class="img-responsive lot" src="assets/images/p33.jpg" alt=""/>
 					</div>
 						<div class="item">
 					
-							<img class="img-responsive lot" src="../../assets/images/p1.jpg" alt=""/>
+							<img class="img-responsive lot" src="assets/images/p1.jpg" alt=""/>
 					</div>
 				</div>
 				</div>
 				<!-- requried-jsfiles-for owl -->
-										<script src="../../assets/js/owl.carousel.js"></script>
+										<script src="assets/js/owl.carousel.js"></script>
 										  <script>
 										  $(document).ready(function() {
 											   $("#owl-demo").owlCarousel({
@@ -357,7 +348,7 @@
 		             <div class="grid">
 						  <div class="col-md-4 m-b">
 							<a href="single.html"> <figure class="effect-layla"></a>
-								<img src="../../assets/images/pic.jpg" alt="img25"/>
+								<img src="assets/images/pic.jpg" alt="img25"/>
 								<figcaption>
 									<h4>Annegret Krisko<span>Politician</span></h4>
 									<a href="#">View more</a>
@@ -371,7 +362,7 @@
 						  </div>
 						   <div class="col-md-4 m-b">
 							 <figure class="effect-layla">
-							<a href="single.html">	<img src="../../assets/images/pic2.jpg" alt="img25"/></a>
+							<a href="single.html">	<img src="assets/images/pic2.jpg" alt="img25"/></a>
 								<figcaption>
 									<h4>Stephen Harper<span>Politician</span></h4>
 								</figcaption>			
@@ -384,7 +375,7 @@
 						  </div>
 						  <div class="col-md-4 m-b">
 							 <figure class="effect-layla">
-								<a href="single.html"><img src="../../assets/images/pic1.jpg" alt="img25"/></a>
+								<a href="single.html"><img src="assets/images/pic1.jpg" alt="img25"/></a>
 								<figcaption>
 									<h4>Shane Robinson<span>Politician</span></h4>
 								</figcaption>			

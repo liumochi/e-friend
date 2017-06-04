@@ -261,7 +261,7 @@ label{
 	}
 /*--slider-css--*/
 .banner{
-	    background: url(../images/banner.jpg)no-repeat 0px 0px;
+	    /*background: url(../images/banner.jpg)no-repeat 0px 0px;*/
      background-size:cover;
     -webkit-background-size:cover;
     -o-background-size:cover;
@@ -1791,50 +1791,28 @@ h3.title,.contact h3{
 }
 /*--Responsive--*/
 @media (max-width:1366px){
-	.banner {
-		background: url(../images/banner.jpg)no-repeat 0px 0px;
-		background-size: cover;
-		-webkit-background-size: cover;
-		-o-background-size: cover;
-		-moz-background-size: cover;
-		-ms-background-size: cover;
-		min-height: 566px;
-	}
-	.banner-info {
-		margin: 10em 0 0 14em;
-	}
+
+
 }
 @media (max-width:1280px){
-	.banner {
-		background: url(../images/banner.jpg)no-repeat 0px 0px;
-		background-size: cover;
-		-webkit-background-size: cover;
-		-o-background-size: cover;
-		-moz-background-size: cover;
-		-ms-background-size: cover;
-		min-height: 523px;
-	}
-	.banner.two {
-		background: url(../images/banner.jpg)no-repeat 0px 0px;
-		background-size: cover;
-		-webkit-background-size: cover;
-		-o-background-size: cover;
-		-moz-background-size: cover;
-		-ms-background-size: cover;
-		min-height: 211px;
-	}
-	.banner-info h3 {
-       font-size: 2.7em;
+	.navbar-nav{
+		margin-left: 0;
 	}
 }
 @media (max-width:1024px){
+	.nav{
+		display: none;
+	}
+	.container{
+		position: relative;
+	}
+	.navbar-header{
+		position: absolute;
+		left:50%;
+		transform: translate(-50%);
+	}
 	.navbar-brand {
 		font-size: 2.5em;
-	}
-	.navbar-nav {
-		float: left;
-		margin: 0;
-		margin-left: 6em;
 	}
 	.navbar-default a.navbar-brand h1 {
 		margin-top: 5px;
@@ -1876,22 +1854,11 @@ h3.title,.contact h3{
 	.banner-info h3 {
 		font-size: 2.3em;
 	}
-	.banner {
-		background: url(../images/banner.jpg)no-repeat -85px 0px;
-		background-size: cover;
-		-webkit-background-size: cover;
-		-o-background-size: cover;
-		-moz-background-size: cover;
-		-ms-background-size: cover;
-		min-height: 440px;
-	}
+
 	.issues h3 a {
 		font-size: 1.1em;
 	}
-	.banner-info {
-		margin: 8em 0 0 11em;
-		text-align: right;
-	}
+
 	.callbacks_tabs {
 		right: 1%;
     }
@@ -1973,8 +1940,13 @@ h3.title,.contact h3{
 	.leave h4, .post h3 {
 		font-size: 1.5em;
 	}
+
 }
+
 @media (max-width:800px){
+	.nav{
+		display: none;
+	}
 	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
 		margin-left: 3px!important;
 	}
@@ -1986,27 +1958,11 @@ h3.title,.contact h3{
 		padding-left: 0;
 		padding: 0;
 	}
-	.banner {
-		background: url(../images/banner.jpg)no-repeat 0px 0px;
-		background-size: cover;
-		-webkit-background-size: cover;
-		-o-background-size: cover;
-		-moz-background-size: cover;
-		-ms-background-size: cover;
-		min-height: 398px;
-	}
-	.banner-info {
-		text-align: center;
-		width: 80%;
-		margin: 7em auto 0;
-	}
 	.navbar-default a.navbar-brand h1 {
 		    margin-top:5px;
 		    font-size: 1.5em;
 	}
-	.banner-info h3 {
-		font-size: 2em;
-	}
+
 	.callbacks_tabs li {
 		display: inline-block;
 		margin: 0 .0em;
@@ -2128,6 +2084,7 @@ h3.title,.contact h3{
 	}
 }
 @media (max-width:768px){
+
 	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
 		margin-left: 0px!important;
 	}
@@ -2137,22 +2094,8 @@ h3.title,.contact h3{
 	.social-icons {
 		margin: 0;
 	}
-	.banner-info {
-		text-align: right;
-		width: 80%;
-		margin: 7em 0 0 8em;
-	}
 	.navbar-brand {
 		font-size: 2.3em;
-	}
-	.banner {
-		background:url(../images/banner.jpg)no-repeat -105px 0px;
-		background-size: cover;
-		-webkit-background-size: cover;
-		-o-background-size: cover;
-		-moz-background-size: cover;
-		-ms-background-size: cover;
-		min-height: 388px;
 	}
 	.nav>li>a {
 		position: relative;
@@ -2616,19 +2559,7 @@ h3.title,.contact h3{
 	a.bull1 {
 		font-size: 1.3em;
 	}
-	.banner {
-		background: url(../images/banner.jpg)no-repeat -105px 0px;
-		background-size: cover;
-		-webkit-background-size: cover;
-		-o-background-size: cover;
-		-moz-background-size: cover;
-		-ms-background-size: cover;
-		min-height: 275px;
-	}
-	.banner-info {
-		width: 91%;
-		margin:4em 0 0 1.5em;
-	}
+
 	.main-content {
 		padding: 2em 0 1em 0;
 	}
@@ -2771,19 +2702,6 @@ h3.title,.contact h3{
 	}
 	.b-text h6 {
     font-size: 0.7em;
-	}
-	.banner {
-		background: url(../images/banner.jpg)no-repeat -84px 0px;
-		background-size: cover;
-		-webkit-background-size: cover;
-		-o-background-size: cover;
-		-moz-background-size: cover;
-		-ms-background-size: cover;
-		min-height: 200px;
-	}
-	.banner-info p {
-		margin: 0;
-		font-size:13px;
 	}
 	.callbacks_tabs a:after {
 		height: 2px;
