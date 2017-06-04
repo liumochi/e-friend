@@ -75,9 +75,7 @@
 	</div>
    <!--/start-banner-->
 	<div class="banner">
-		<div class="container">
 			<div class="banner-inner">
-				<div class="callbacks_container">
 					<ul class="rslides callbacks callbacks1" id="slider4">
 						<li class="callbacks1_on">
                                 <img src="assets/images/banner.jpg" alt="">
@@ -86,10 +84,9 @@
                                 <img src="assets/images/1.jpg" alt="">
 						</li>
 						<li>
-                                <img src="assets/images/2.jpg" alt="">
+                                <img src="assets/images/b1.jpg" alt="">
 						</li>
 					</ul>
-                </div>
 					<!--banner-Slider-->
 
 					 <script>
@@ -105,7 +102,6 @@
 					});
 					  </script>
 			</div>
-        </div>
   </div>
 <!--//end-banner-->
 <!--/start-main-->
@@ -177,7 +173,7 @@
 								<div class="course_demo1">
 								  <ul id="flexiselDemo1">	
 									 <li>
-										<a href="single.html"><img src="assets/images/mg1.jpg" alt="" /></a>
+										<a href="Welcome/about"><img src="assets/images/mg1.jpg" alt="" /></a>
 									 </li>
 									 <li>
 										<a href="single.html"><img src="assets/images/mg2.jpg" alt="" /></a>
@@ -247,28 +243,28 @@
 					    </div>
 						<div class="item">
 					
-							<img class="img-responsive lot" src="assets/images/p33.jpg" alt=""/>
+							<img class="img-responsive lot" src="assets/images/p3.jpg" alt=""/>
 					    </div>
 						<div class="item">
 					
-							<img class="img-responsive lot" src="assets/images/p1.jpg" alt=""/>
+							<img class="img-responsive lot" src="assets/images/p4.JPG" alt=""/>
 					</div>
 					<div class="item">
 					
-							<img class="img-responsive lot" src="assets/images/p1.jpg" alt=""/>
+							<img class="img-responsive lot" src="assets/images/p5.jpg" alt=""/>
 					</div>
 						<div class="item">
 					
-							<img class="img-responsive lot" src="assets/images/p2.jpg" alt=""/>
-					</div>
-						<div class="item">
-					
-							<img class="img-responsive lot" src="assets/images/p33.jpg" alt=""/>
-					</div>
-						<div class="item">
-					
-							<img class="img-responsive lot" src="assets/images/p1.jpg" alt=""/>
-					</div>
+							<img class="img-responsive lot" src="assets/images/p6.jpg" alt=""/>
+					    </div>
+                            <div class="item">
+
+                                <img class="img-responsive lot" src="assets/images/p7.jpg" alt=""/>
+                            </div>
+                            <div class="item">
+
+                                <img class="img-responsive lot" src="assets/images/p8.jpg" alt=""/>
+                            </div>
 				</div>
 				</div>
 				<!-- requried-jsfiles-for owl -->

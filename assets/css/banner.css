@@ -16,6 +16,15 @@ ul,ol{
     z-index: 1;
     transition: opacity 500ms ease-in-out;
 }
+.banner{
+    overflow: hidden;
+}
+#slider4 li img{
+    width:100%;
+}
+.banner-inner{
+    position: relative;
+}
 .centered-btns_nav { position: absolute; top: 50%; z-index: 2; width: 38px; height: 61px; margin-top: -40px; line-height: 200px; background-image: url(../images/arrow.gif); overflow: hidden; opacity: .7;}
 .next { right: 0; background-position: right 0;}
 .centered-btns_nav:active { opacity: 1;}
