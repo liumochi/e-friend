@@ -2,15 +2,16 @@
 <html>
 <head>
 <title>关于我们</title>
+    <base href="<?php echo site_url()?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<link href="css/bootstrap-3.1.1.min.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/bootstrap-3.1.1.min.css" rel="stylesheet" type="text/css">
 <!-- Custom Theme files -->
-<link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/style.css" rel='stylesheet' type='text/css' />
-<link rel="stylesheet" href="css/about.css"/>
-<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<link href="../../assets/css/owl.carousel.css" rel="stylesheet" type="text/css" media="all" />
+<link href="../../assets/css/style.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="../../assets/css/about.css"/>
+<link rel="stylesheet" href="../../assets/css/flexslider.css" type="text/css" media="screen" />
 <link href='https://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700' rel='stylesheet' type='text/css'>
 	<style>
@@ -27,26 +28,26 @@
 		<nav class="navbar navbar-default" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
-					<a class="navbar-brand" href="index.html">e-friend</a>
+					<a class="navbar-brand" href="index.php">e-friend</a>
 				</div>
 				<!--/.navbar-header-->
 
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
-						<li class="active"><a href="index.html">首页</a></li>
+						<li class="active"><a href="index.php">首页</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">俱乐部<b class="caret"></b></a>
 							<ul class="dropdown-menu multi-column columns-2">
 								<div class="row">
 									<div class="party">
 										<ul class="multi-column-dropdown">
-											<li><a href="about.html">历史</a></li>
+											<li><a href="about.php">历史</a></li>
 											<li class="divider"></li>
-											<li><a href="about.html">哲学</a></li>
+											<li><a href="about.php">哲学</a></li>
 											<li class="divider"></li>
-											<li><a href="about.html">摄影</a></li>
+											<li><a href="about.php">摄影</a></li>
 											<li class="divider"></li>
-											<li><a href="about.html">计算机</a></li>
+											<li><a href="about.php">计算机</a></li>
 											<li class="divider"></li>
 											<li><a href="typography.html">其他</a></li>
 										</ul>
@@ -56,7 +57,7 @@
 						</li>
 						<li><a href="typography.html">表白墙</a></li>
 						<li><a>嘚吧嘚</a></li>
-						<li><a href="about.html">关于我们</a></li>
+						<li><a href="about.php">关于我们</a></li>
 						<li><a href="">登陆</a></li>
 					</ul>
 				</div>
@@ -106,7 +107,7 @@
 		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 
 <!--JS-->
-<script src="js/jquery.min.js"> </script>
+<script src="../../assets/js/jquery.min.js"> </script>
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
 		$(".scroll").click(function(event){
@@ -115,11 +116,11 @@
 		});
 	});
 </script>
-  <script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
+  <script type="text/javascript" src="../../assets/js/bootstrap-3.1.1.min.js"></script>
+<script type="text/javascript" src="../../assets/js/move-top.js"></script>
+<script type="text/javascript" src="../../assets/js/easing.js"></script>
 <script src="http://api.map.baidu.com/api?v=2.0&ak=您的密钥" type="text/javascript"></script>
-<script src="js/map.js"></script>
+<script src="../../assets/js/map.js"></script>
 <script>
 	var navBar = document.getElementById('nav_bar');
 	var aLi = navBar.getElementsByTagName('li');
